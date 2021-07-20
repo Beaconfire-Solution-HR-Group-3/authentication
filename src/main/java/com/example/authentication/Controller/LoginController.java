@@ -29,6 +29,7 @@ public class LoginController {
     }
 
 
+    @CrossOrigin
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestBody UserRequest userRequest) throws IOException {
 
